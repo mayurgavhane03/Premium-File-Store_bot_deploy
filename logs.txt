@@ -1,0 +1,11 @@
+[18-Jun-24 19:28:14 - WARNING] - bot - Peer id invalid: -1002243479079
+[18-Jun-24 19:28:14 - WARNING] - bot - Bot can't Export Invite link from Force Sub Channel!
+[18-Jun-24 19:28:14 - WARNING] - bot - Please Double check the FORCE_SUB_CHANNEL value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: -1002243479079
+[18-Jun-24 19:31:31 - WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[18-Jun-24 19:31:31 - WARNING] - bot - Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value -1001900819675
+[18-Jun-24 19:31:52 - WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[18-Jun-24 19:31:52 - WARNING] - bot - Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value -1001900819675
+[18-Jun-24 19:32:58 - INFO] - bot - Bot Running..!
+[18-Jun-24 19:42:50 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[18-Jun-24 19:52:37 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[18-Jun-24 19:52:37 - INFO] - bot - Bot stopped.
