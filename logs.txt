@@ -9,3 +9,59 @@
 [18-Jun-24 19:42:50 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
 [18-Jun-24 19:52:37 - INFO] - root - Stop signal received (SIGINT). Exiting...
 [18-Jun-24 19:52:37 - INFO] - bot - Bot stopped.
+[18-Jun-24 20:24:52 - INFO] - bot - Bot Running..!
+[18-Jun-24 20:27:18 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[18-Jun-24 20:30:26 - INFO] - bot - Bot Running..!
+[18-Jun-24 20:30:52 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[18-Jun-24 20:31:17 - INFO] - bot - Bot Running..!
+[18-Jun-24 20:35:13 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[18-Jun-24 20:35:24 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[18-Jun-24 20:35:35 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[18-Jun-24 20:35:36 - WARNING] - pyrogram.connection.connection - Connection failed! Trying again...
+[18-Jun-24 20:35:46 - WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[18-Jun-24 20:37:48 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[18-Jun-24 20:37:48 - INFO] - bot - Bot stopped.
+[18-Jun-24 20:40:25 - INFO] - bot - Bot Running..!
+[18-Jun-24 20:44:06 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[18-Jun-24 20:44:27 - INFO] - bot - Bot Running..!
+[18-Jun-24 21:05:05 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[18-Jun-24 21:05:05 - INFO] - bot - Bot stopped.
+[18-Jun-24 21:18:39 - INFO] - bot - Bot Running..!
+[18-Jun-24 21:18:43 - ERROR] - pyrogram.dispatcher - can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\mayur\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\dispatcher.py", line 429, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\mayur\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\mayur\Desktop\testing\Telegram-File-Share-Bot\Telegram-File-Share-Bot\plugins\start.py", line 70, in start_command
+    caption += CUSTOM_ADDED_CAPTION
+TypeError: can only concatenate str (not "NoneType") to str
+[18-Jun-24 21:19:17 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[18-Jun-24 21:19:17 - INFO] - bot - Bot stopped.
+[18-Jun-24 21:19:31 - INFO] - bot - Bot Running..!
+[18-Jun-24 21:19:36 - ERROR] - pyrogram.dispatcher - can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\mayur\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\dispatcher.py", line 429, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\mayur\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\mayur\Desktop\testing\Telegram-File-Share-Bot\Telegram-File-Share-Bot\plugins\start.py", line 70, in start_command
+    caption += CUSTOM_ADDED_CAPTION
+TypeError: can only concatenate str (not "NoneType") to str
+[18-Jun-24 21:19:47 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[18-Jun-24 21:19:47 - INFO] - bot - Bot stopped.
+[18-Jun-24 21:20:00 - INFO] - bot - Bot Running..!
+[18-Jun-24 21:20:05 - ERROR] - pyrogram.dispatcher - can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\mayur\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\dispatcher.py", line 429, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\mayur\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\mayur\Desktop\testing\Telegram-File-Share-Bot\Telegram-File-Share-Bot\plugins\start.py", line 70, in start_command
+    caption += CUSTOM_ADDED_CAPTION
+TypeError: can only concatenate str (not "NoneType") to str
+[18-Jun-24 21:20:28 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[18-Jun-24 21:20:28 - INFO] - bot - Bot stopped.
+[18-Jun-24 21:20:37 - INFO] - bot - Bot Running..!
+[18-Jun-24 21:50:40 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[18-Jun-24 21:50:40 - INFO] - bot - Bot stopped.
