@@ -4,6 +4,9 @@ import logging
 
 from logging.handlers import RotatingFileHandler
 
+CUSTOM_ADDED_CAPTION= os.environ.get( "\n\nJoin Channel - https://t.me/+83t2-bG8a0NjNGYx ")
+
+
 #your bot token here from https://telegram.me/BotFather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7278104225:AAELo0AtOQ_jbGYJPgWDcM-6olmoLJ3tkp8") 
 #your api id from https://my.telegram.org/apps
@@ -39,7 +42,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 #force message for joining the channel
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "h")
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
